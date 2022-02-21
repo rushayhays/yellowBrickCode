@@ -2,8 +2,30 @@ body {
     background-color: blanchedalmond;
 }
 
-ul {
+nav ul {
     list-style-type: none;
-    margin: 0;
+    margin:0;
     padding:0;
+}
+
+nav li {
+    display: inline;
+}
+.main_content {
+    display: flex;
+}
+
+img {
+    max-width:200px;
+}
+main {
+    flex: 3;
+}
+
+aside {
+    flex:1;
+}
+.ozFriends {
+    display: flex;
+    justify-content: space-around;
 }
