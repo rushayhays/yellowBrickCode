@@ -1,33 +1,82 @@
+html body {
+    padding:0;
+    margin:0;
+}
 body {
     background-color: blanchedalmond;
 }
+h1 {
+    text-align: center;
+    background-color: lightpink;
+    margin:0;
+    padding:20px;
+
+}
 
 nav ul {
+    text-align: center;
     list-style-type: none;
     margin:0;
     padding:0;
+    background-color: darkolivegreen;
 }
 
 nav li {
     display: inline;
+    background-color: aquamarine;
 }
+
+/*This section is supposed to make the sidebar work*/
 .main_content {
     display: flex;
 }
 
-img {
-    max-width:200px;
-
-}
-
 main {
     flex: 3;
+    margin-right:10px;
 }
 
 aside {
+    background-color: lightpink;
     flex:1;
 }
+img {
+    width: 100%;
+
+}
+/*This is where center info is styled*/
+.center_info {
+    padding-left: 10%;
+}
+/*This section is one step above the froends of Oz containers*/
+.bigFriendOzBox {
+    background-color: lightgray;
+}
+
+/* this section controls the overall box where the friends of oz live */
 .ozFriends {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+.ozFriends img {
+    max-height: 250px;
+    max-width: 500px;
+
+}
+
+/* this codes standardizes each individual box */
+.ozFriends div {
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Styling for the footer*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkolivegreen;
+    margin:0;
+    padding: 10px;
 }
